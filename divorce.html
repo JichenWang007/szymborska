@@ -1,0 +1,146 @@
+﻿<!DOCTYPE  html>
+
+<html  lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>SzyCtionary.com</title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet">
+
+
+
+</head>
+
+
+<body>
+    
+<h3>SzyCtionary.com</h3>  
+    
+<h4>TRANSLATE</h4>
+    
+<div class="clearfix">
+        
+<div class = "wrap">  
+            
+<div class = "main">
+                
+<input type="button" class="button" id="kids" onclick="editData(this,1)" value="Kids">
+</button>
+                
+<input type="button" class="button" id="cat" onclick="editData(this,2)" value="Cat">
+</button>
+                
+<input type="button" class="button" id="dog" onclick="editData(this,3)" value="Dog">
+</button>
+                
+<input type="button" class="button" id="fur" onclick="editData(this,4)" value="Furniture">
+</button>
+                
+<input type="button" class="button" id="wall" onclick="editData(this,5)" value="Walls">
+</button>
+                
+<input type="button" class="button" id="neighbour" onclick="editData(this,6)" value="Neighbors">
+</button>
+                
+<input type="button" class="button" id="car" onclick="editData(this,7)" value="Car">
+</button>
+                
+<input type="button" class="button" id="novel" onclick="editData(this,8)" value="Novels&Poem">
+</button>
+                
+<input type="button" class="button" id="encyc" onclick="editData(this,9)" value="Encyclopedias&VCR">
+</button>
+                
+<input type="button" class="button" id="guide" onclick="editData(this,10)" value="The guide to proper usage">
+</button>
+                
+<button class="button2" onclick="show()">Translate</button>
+                
+<br>
+               
+<textarea class="output" id="output" readonly="True"></textarea> 
+                
+            
+</div>  
+        
+</div>  
+        
+<div class = "left">
+                <button class="button">Incident</button>
+            
+                
+<br>
+                
+<textarea class="input" readonly="True">Divorce</textarea> 
+                
+<!-- <img src="images/piggy.png" alt="My test image"> 如果你想放图片          -->
+        
+</div>   
+   
+</div>
+    
+<!-- <div class="footer">
+        底部  
+    
+</div>  -->
+
+    
+<script>
+        
+var text;
+        
+
+        
+function editData(obj,num){
+            
+        
+// alert(obj.id);
+            
+if(obj.id == "kids"){
+               
+ text = "The first ending of the world";
+            
+}
+            if(obj.id == "cat"){
+                text = "A new master";
+            }
+            if(obj.id == "dog"){
+                text = "A new mistress";
+            }
+            if(obj.id == "fur"){
+                text = "Stairs, thuds, my way or the highway";
+            }
+            if(obj.id == "wall"){
+                text = "Sright squares where pictures once hung";
+            }
+            if(obj.id == "neighbour"){
+                text = "New subjects, a break in the boredom";
+            }
+            if(obj.id == "car"){
+                text = "Better if there were two";
+            }
+            if(obj.id == "novel"){
+                text = " Fine, take what you want";
+            }
+            if(obj.id == "encyc"){
+                text = " ";
+            }
+            if(obj.id == "guide"){
+                text = "Doubtless holds pointers on two names — are they still linked with the conjunction ”and” or does a period divide them";
+            }
+            
+        }
+
+        function show(){
+            document.getElementById("output").innerHTML=text;
+        } 
+    </script>
+
+
+</body>
+
