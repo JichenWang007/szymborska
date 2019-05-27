@@ -1,54 +1,54 @@
 ﻿<html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/animal-style.css">
     </head>
     <body>
         <div class="left_column">
             <div class="btn-group">
-                <button class="button" onclick="myFunction(1)"><img src="1.jpg"></button>
-                <button class="button" onclick="myFunction(2)"><img src="2.jpg"></button>
-                <button class="button" onclick="myFunction(3)"><img src="3.jpg"></button>
-                <button class="button" onclick="myFunction(4)"><img src="4.jpg"></button>
-                <button class="button" onclick="myFunction(5)"><img src="5.jpg"></button>
-                <button class="button" onclick="myFunction(6)"><img src="6.jpg"></button>
-                <button class="button" onclick="myFunction(7)"><img src="7.jpg"></button>
-                <button class="button" onclick="myFunction(8)"><img src="8.jpg"></button>
+                <button class="button" onclick="myFunction(1)"><img src="images/animal1.jpg"></button>
+                <button class="button" onclick="myFunction(2)"><img src="images/animal2.jpg"></button>
+                <button class="button" onclick="myFunction(3)"><img src="images/animal3.jpg"></button>
+                <button class="button" onclick="myFunction(4)"><img src="images/animal4.jpg"></button>
+                <button class="button" onclick="myFunction(5)"><img src="images/animal5.jpg"></button>
+                <button class="button" onclick="myFunction(6)"><img src="images/animal6.jpg"></button>
+                <button class="button" onclick="myFunction(7)"><img src="images/animal7.jpg"></button>
+                <button class="button" onclick="myFunction(8)"><img src="images/animal8.jpg"></button>
             </div>
         </div>
         <div class="right_column">
-            <img id="discription" src="description1.jpg" height=80%>
-            <img id="back-button" src="back-button.jpg" height=20% usemap="#button_map">
+            <img id="discription" src="images/description1.jpg" height=80%>
+            <img id="back-button" src="images/back-button.jpg" height=20% usemap="#button_map">
         </div>
         <script>
         function myFunction(i) {
             var pic;
             switch(i) {
                 case 1:
-                    pic = "description1.jpg";
+                    pic = "images/description1.jpg";
                     break;
                 case 2:
-                    pic = "description2.jpg";
+                    pic = "images/description2.jpg";
                     break;
                 case 3:
-                    pic = "description3.jpg";
+                    pic = "images/description3.jpg";
                     break;
                 case 4:
-                    pic = "description4.jpg";
+                    pic = "images/description4.jpg";
                     break;
                 case 5:
-                    pic = "description5.jpg";
+                    pic = "images/description5.jpg";
                     break;
                 case 6:
-                    pic = "description6.jpg";
+                    pic = "images/description6.jpg";
                     break;
                 case 7:
-                    pic = "description7.jpg";
+                    pic = "images/description7.jpg";
                     break;
                 case 8:
-                    pic = "description8.jpg";
+                    pic = "images/description8.jpg";
                     break;
                 default:
-                    pic = "description1.jpg";
+                    pic = "images/description1.jpg";
 }
             document.getElementById("discription").src = pic;
         }
