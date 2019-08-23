@@ -29,6 +29,7 @@
     display: block;
     height: 210px;
     width: 150px;
+    outline: none;
 }
 
 .btn-group .button {
@@ -45,6 +46,7 @@
     background-color: transparent;
     border-color: transparent;
     border-style: none;
+    outline: none;
 }
 
 ::-webkit-scrollbar-track-piece {
