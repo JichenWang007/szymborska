@@ -1,24 +1,39 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Szymborska</title>
-</head>
+<title>Szymborska</title>
 
+<style>
+    .parent {
+        position: relative;
+        max-width: 100%; 
+        width: auto;
+    }
+    #button-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 6%;
+    }
+</style>
+</head>
 <body>
-<a href="animal0.html">
-    <img border="0" alt="animal" src="images/animal.jpg" width="100" height="100">
-</a>
-<br>
-<a href="divorce.html">Divorce</a>
-<br>
-<a href="szymbopedia1.html">
-    <img border="0" alt="szymbopedia" src="images/szymbopedia.jpg" width="100" height="100">
-</a>
-<br>
-<a href="soul.html">Soul</a>
-<br>
+
+<div class="parent">
+    <img src="images/homepage.jpg" style="max-width: 100%; height: auto; width: auto; width: auto;" />
+    <div id="button-block">
+        <a href="divorce.html">
+            <img src="images/translate.png", width="256"/>
+        </a>
+        <a href="szymbopedia1.html">
+            <img src="images/pedia.png", width="256"/>
+        </a>
+        <a href="soul.html">
+            <img src="images/play.png", width="256"/>
+        </a>
+    </div>
+</div>
 
 </body>
 </html>
