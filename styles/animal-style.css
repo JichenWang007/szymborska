@@ -47,6 +47,7 @@
     border-color: transparent;
     border-style: none;
     outline: none;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-track-piece {
