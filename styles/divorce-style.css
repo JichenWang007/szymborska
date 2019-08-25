@@ -30,6 +30,11 @@ h3{
     font-size: 30px;
 }
 
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+}
+
 h4{
     font-family: 'IM Fell DW Pica', serif;
     color:rgb(0, 0, 0);
